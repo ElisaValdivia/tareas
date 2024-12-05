@@ -1,12 +1,13 @@
-:root{
-    --color-primario:#A64E4E;
-    --color-secundario:#D98989;
-    --color-terciario:#F2B6BB;
-    --color-text:#593128;
-    --bg:#f5f2f0;
-    --text-size:1.5rem;
+:root {
+    --color-primario: #A64E4E;
+    --color-secundario: #D98989;
+    --color-terciario: #F2B6BB;
+    --color-text: #593128;
+    --bg: #f5f2f0;
+    --text-size: 1.5rem;
 }
-body{
+
+body {
     font-family: "Fira Sans", sans-serif;
     background-color: var(--bg);
     height: 100vh;
@@ -14,87 +15,99 @@ body{
     display: flex;
     justify-content: center;
 }
-.container{
-max-width: 80%;
-width: 400px;
-height: 600px;
-margin: 40px;
-padding: 40px;
-background-color: var(--color-secundario);
-border-radius: 32px;
+
+.container {
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 40px;
+    padding: 40px;
+    background-color: var(--color-secundario);
+    border-radius: 32px;
 }
 
-.encabezado{
+.encabezado {
     padding: 10px 0 5px 0;
 }
-.agregar{
-background-color:var(--color-terciario);
-border-radius: 16px;
-height: 70px;
-display: flex;
-align-items: center;
-padding: 12px;
-gap: 70px;
+
+.agregar {
+    background-color: var(--color-terciario);
+    border-radius: 16px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 70px;
 }
-.agregar input{
-width: 100%;
-height:100%;
-border: none;
-border-radius: 12px;
-background-color: var(--color-secundario);
+
+.agregar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+    background-color: var(--color-secundario);
 
 }
 
-#input::placeholder{
+#input::placeholder {
     font-size: 1.1rem;
-    color:var(--color-text);
+    color: var(--color-text);
     padding: 8px;
 }
-.agregar i{
- font-size: 45px;
- color:white;
+
+.agregar i {
+    font-size: 45px;
+    color: white;
 }
-.agregar i:hover{
-transform: scale(1.1);
-cursor: pointer;
+
+.agregar i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
-.tareas h2{
+
+.tareas h2 {
     margin-bottom: 20px;
     color: white;
-    
+
 }
-.tareas{
+
+.tareas {
     font-size: 25px;
 }
-.tareas li{ 
+
+.tareas li {
     background-color: var(--color-text);
     border-radius: 15px;
     padding: 10px;
     color: white;
     margin: 5px o;
-    display: flex;
     align-items: center;
-    justify-content: center;
     justify-content: center;
     display: flex;
     flex-direction: row;
+    gap: 16px;
 
 }
-.tareas i:hover{
+
+.tareas i:hover {
     color: black;
 }
-.tareas p:hover{
-color: black;
+
+.tareas p:hover {
+    color: black;
 }
-.tachado{
+
+.tachado {
     text-decoration: line-through;
 }
 
-.tareas ul{
+.tareas ul {
     display: flex;
-        background-color: var(--color-text);
-        border-radius: 8px;
-        padding: 1rem;
-        list-style: none;
-        justify-content: center;
+    border-radius: 8px;
+    padding: 1rem;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+
 }
